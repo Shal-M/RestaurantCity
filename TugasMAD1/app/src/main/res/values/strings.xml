@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tugas MAD 1</string>
+    <string name="food">Food</string>
+    <string name="drink">Drink</string>
+    <string name="harga_makanan">Harga Makanan</string>
+    <string name="nama_makanan">Nama Makanan</string>
+</resources>
