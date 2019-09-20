@@ -30,8 +30,7 @@
         android:layout_marginLeft="20dp"
         android:layout_below="@+id/logo"
         android:layout_toRightOf="@+id/btn_makanan"
-        android:text="@string/drink"
-        />
+        android:text="@string/drink"/>
 
 
 

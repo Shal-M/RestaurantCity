@@ -4,4 +4,5 @@
     <string name="drink">Drink</string>
     <string name="harga_makanan">Harga Makanan</string>
     <string name="nama_makanan">Nama Makanan</string>
+    <string name="nama_minuman">Nama Minuman</string>
 </resources>
