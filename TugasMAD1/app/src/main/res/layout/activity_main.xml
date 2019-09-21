@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/menu">
 
     <ImageView
         android:id="@+id/logo"
@@ -13,25 +14,24 @@
         android:src="@color/colorAccent"/>
 
     <Button
-    android:id="@+id/btn_makanan"
-    android:layout_width="150dp"
-    android:layout_height="150dp"
-    android:layout_marginTop="16dp"
-    android:layout_marginLeft="16dp"
-    android:layout_below="@+id/logo"
-    android:text="@string/food"/>
+        android:id="@+id/btn_makanan"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="83dp"
+        android:text="@string/food" />
 
     <Button
         android:id="@+id/btn_minuman"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginLeft="20dp"
         android:layout_below="@+id/logo"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginRight="16dp"
         android:layout_toRightOf="@+id/btn_makanan"
-        android:text="@string/drink"/>
-
+        android:text="@string/drink" />
 
 
 </RelativeLayout>
