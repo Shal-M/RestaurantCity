@@ -26,7 +26,7 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@color/colorAccent"/>
+            android:src="@drawable/jusstrawberry"/>
 
         <LinearLayout
             android:layout_marginLeft="8dp"
@@ -42,7 +42,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/harga_minuman"
+                android:text="@string/rp_12000"
                 android:layout_marginTop="8dp"/>
 
         </LinearLayout>
@@ -74,7 +74,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/hargakopi"
+                android:text="@string/rp_20000"
                 android:layout_marginTop="8dp"/>
 
         </LinearLayout>
@@ -106,7 +106,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/hargamilo"
+                android:text="@string/rp_15000"
                 android:layout_marginTop="8dp"/>
         </LinearLayout>
     </LinearLayout>
