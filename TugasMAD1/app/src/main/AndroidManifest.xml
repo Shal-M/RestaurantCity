@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuDrink"></activity>
+        <activity android:name=".NasiMentega"></activity>
+        <activity android:name=".Spaghetti" />
+        <activity android:name=".NasiGoreng" />
+        <activity android:name=".MenuDrink" />
         <activity android:name=".MenuFood" />
         <activity android:name=".MainActivity">
             <intent-filter>
