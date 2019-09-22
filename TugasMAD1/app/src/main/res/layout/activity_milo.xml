@@ -14,14 +14,14 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="160dp"
         android:scaleType="fitXY"
-        android:src="@drawable/nasimentega" />
+        android:src="@drawable/esmilo" />
 
     <TextView
         android:layout_width="353dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="70dp"
-        android:text="@string/desmentega"
+        android:text="@string/desmilo"
         android:textColor="@android:color/white"/>
 
 </LinearLayout>

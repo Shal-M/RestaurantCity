@@ -4,15 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Spaghetti"
+    tools:context=".NasiGoreng"
+    android:orientation="vertical"
     android:background="@drawable/bgmenu">
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/spaghetti"
+        android:layout_width="228dp"
+        android:layout_height="113dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="160dp"
         android:scaleType="fitXY"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="160dp"/>
+        android:src="@drawable/spaghetti" />
+
+    <TextView
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="70dp"
+        android:text="@string/desspaghetti"
+        android:textColor="@android:color/white"/>
 
 </LinearLayout>

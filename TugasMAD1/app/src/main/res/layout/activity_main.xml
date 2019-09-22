@@ -11,17 +11,18 @@
         android:id="@+id/btn_makanan"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="10dp"
         android:text="@string/food" />
 
     <Button
         android:id="@+id/btn_minuman"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="220dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="1dp"
         android:layout_toRightOf="@+id/btn_makanan"
         android:text="@string/drink" />
 

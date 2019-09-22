@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NasiMentega"></activity>
+        <activity android:name=".Milo"></activity>
+        <activity android:name=".Cappuccino" />
+        <activity android:name=".Strawberry" />
+        <activity android:name=".NasiMentega" />
         <activity android:name=".Spaghetti" />
         <activity android:name=".NasiGoreng" />
         <activity android:name=".MenuDrink" />

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuDrink"
+    android:background="@drawable/menu1"
     android:orientation="vertical">
 
     <TextView
@@ -16,6 +17,7 @@
         android:fontFamily="serif"/>
 
     <LinearLayout
+        android:id="@+id/LayoutStrawberry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -34,12 +36,14 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
+                android:textColor="@android:color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/nama_minuman"
                 android:textStyle="bold" />
 
             <TextView
+                android:textColor="@android:color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rp_12000"
@@ -48,6 +52,7 @@
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
+        android:id="@+id/LayoutCappuccino"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -58,7 +63,7 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@color/colorAccent"/>
+            android:src="@drawable/cappucion"/>
 
         <LinearLayout
             android:layout_marginLeft="8dp"
@@ -66,12 +71,14 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
+                android:textColor="@android:color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/kopi"
                 android:textStyle="bold" />
 
             <TextView
+                android:textColor="@android:color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rp_20000"
@@ -80,6 +87,7 @@
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
+        android:id="@+id/LayoutMilo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -90,20 +98,23 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@android:color/black"/>
+            android:src="@drawable/esmilo"/>
 
         <LinearLayout
             android:layout_marginLeft="8dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <TextView
+                android:textColor="@android:color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/milo"
                 android:textStyle="bold" />
 
             <TextView
+                android:textColor="@android:color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rp_15000"
