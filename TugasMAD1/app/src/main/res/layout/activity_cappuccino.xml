@@ -11,10 +11,10 @@
     <ImageView
         android:layout_width="228dp"
         android:layout_height="113dp"
-        android:layout_marginLeft="100dp"
         android:layout_marginTop="160dp"
         android:scaleType="fitXY"
-        android:src="@drawable/cappucion" />
+        android:src="@drawable/cappucion"
+        android:layout_gravity="center_horizontal"/>
 
     <TextView
         android:layout_width="353dp"
@@ -23,5 +23,13 @@
         android:layout_marginRight="70dp"
         android:text="@string/descappucino"
         android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnPesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pesan"
+        android:layout_gravity="center_horizontal"
+        />
 
 </LinearLayout>

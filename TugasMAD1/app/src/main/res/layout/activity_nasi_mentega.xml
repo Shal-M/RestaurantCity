@@ -11,7 +11,7 @@
     <ImageView
         android:layout_width="228dp"
         android:layout_height="113dp"
-        android:layout_marginLeft="100dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="160dp"
         android:scaleType="fitXY"
         android:src="@drawable/nasimentega" />
@@ -23,5 +23,13 @@
         android:layout_marginRight="70dp"
         android:text="@string/desmentega"
         android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pesan"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnPesan"
+        />
 
 </LinearLayout>
